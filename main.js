@@ -81,7 +81,7 @@ function diaEventoAhora () {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!4v1778935429563!6m8!1m7!1sjGE5thmhTUgxrET0_2Ru7A!2m2!1d-33.1540884760236!2d-62.86196557590743!3f294.8475504045752!4f-2.854366487984109!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.0804226768837!2d-59.0829394!3d-35.154615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd00944f0c8431%3A0x911020f40ff40707!2sEL%20COMIENZO%20es%20Infinito%20EMPALME%20LOBOS!5e0!3m2!1ses!2sar!4v1790713014979!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>',
         
         
     })

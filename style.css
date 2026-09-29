@@ -28,7 +28,7 @@
     justify-content: center;
     gap: 1em;
     padding: 0.8em;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .cr-time > span {
     font-size: 25px;
@@ -44,7 +44,7 @@
   
 }
 .cr-block {
-    background: #cbcbcb2e;
+    background: #cbcbcb37;
     border-radius: 5px;
     padding: 0.1em 0.5em;
     background-size: 80%;
@@ -229,11 +229,11 @@ padding-top: 2%;
   width: 100%;
 }
 .arrow span {
-  margin-top: -50%;
+  margin-top: -30%;
   display: block;
   width: 14px;
   height: 14px;
-  border-bottom: 5px solid rgb(234, 234, 234);
+  border-bottom: 5px solid rgb(249, 237, 125);
   border-right: 5px solid #8cac8e;
   transform: rotate(45deg);
   margin-left: 48%;
@@ -479,7 +479,10 @@ margin-top: -17%;
   
    
 }
-
+.boda{
+  width: 100%;
+  margin-top: 25%;
+}
 
 .primary1 {
   min-width: 130px;
@@ -506,7 +509,7 @@ font-family: 'Alex Brush', cursive;
 
 .boton{
   text-align: center;
-  margin-top: -15%;
+  margin-top: -5%;
 }
 
 .primary2 {
@@ -980,11 +983,21 @@ display: block;
     color: #4c4d4c;
     margin: 20%;
     font-weight: 550;
-    margin-top: 5%;
+    margin-top: -55%;
   font-family: 'Great Vibes', cursive;
 
   }
  .parrafodos{
+    text-align: center;
+    font-size: 35px;
+    color: #5a6c4c;
+    margin-top: -10%; 
+ font-family: 'Great Vibes', cursive;
+    font-weight: 450;
+         
+  }
+  
+ .parrafouno{
     text-align: center;
     font-size: 35px;
     color: #5a6c4c;
@@ -994,7 +1007,6 @@ display: block;
          
   }
   
-
 
 .tecla {
 margin-top: -49%;
