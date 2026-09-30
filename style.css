@@ -79,6 +79,14 @@
     justify-content: center;
     align-items: center;
   }
+ .lemon-containerdos {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   /* El Limón */
   .lemon {
@@ -342,17 +350,7 @@ margin-top: -17%;
    background-color: #d49c81;
    
 }
-.regalo{
-  text-align: center;
-    font-size: 45px;
-    color: #4c4d4c;
-    margin: 20%;
-    font-weight: 550;
-    margin-top: 25%;
-  font-family: 'Great Vibes', cursive;
 
-   
-}
 .vestimenta{
   text-align: center;
  font-family: "Playfair Display", serif;
@@ -363,6 +361,31 @@ margin-top: -17%;
 
    
 }
+
+.regalouno{
+  text-align: center;
+    font-size: 45px;
+    color: #4c4d4c;
+    margin: 20%;
+    font-weight: 550;
+    margin-top: 5%;
+  font-family: 'Great Vibes', cursive;
+
+   
+}
+
+.dress{
+  text-align: center;
+    font-size: 45px;
+    color: #4c4d4c;
+    margin: 20%;
+    font-weight: 550;
+    margin-top: 10%;
+  font-family: 'Great Vibes', cursive;
+
+   
+}
+
 .carousel-item img{
   width: 90%;
   margin-left: 5%;
@@ -371,7 +394,7 @@ margin-top: -17%;
 
 .asistencia{
   text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color: #4c4d4c;
     margin: 20%;
     font-weight: 550;
@@ -382,16 +405,7 @@ margin-top: -17%;
 }
 
 
-.dress{
-  text-align: center;
- font-family: "Playfair Display", serif;
-   font-size: 40px;
-   color: #ffffff;
-   font-weight: 500;
-   margin-top: -55%;
 
-   
-}
 
 .whatsap{
   width: 25%;
@@ -440,9 +454,11 @@ margin-top: -17%;
     margin-top: 5%;
 }
 
-.bola{
+.copas{
   width: 15%;
-  margin-left: 39%;
+ display: block;
+    margin: auto;
+    margin-top: -18%;
 } 
 .teesperamos{
   width: 100%;
@@ -654,7 +670,7 @@ font-family: 'Alex Brush', cursive;
     text-align: center;
     font-size: 35px;
     color: #5a6c4c;
-    margin-top: -15%; 
+    margin-top: 5%; 
  font-family: 'Great Vibes', cursive;
     font-weight: 450;
 }
@@ -1045,6 +1061,15 @@ margin-top: -49%;
   text-decoration: none;
   color: #c5bfa2;
 }
+
+
+ .limondos {
+   width: 30%;
+   margin-left: 82%;
+   transform: rotate(110deg)
+  }
+
+
 /* Contenedor principal */
   .lemon-container {
     display: flex;
@@ -1081,6 +1106,30 @@ margin-top: -49%;
   }
 
 
+  /* Imagen con animación de aparición */
+  .lemon-imgdos{
+    max-width: 180px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: -150%;
+    /* Estado inicial: oculto y desplazado hacia abajo */
+    opacity: 0;
+    transform: translateY(30px) scale(0.92);
+    
+    /* Ejecuta la animación al cargar la página */
+    animation: revealLemon 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  }
+
+  /* Keyframes del efecto "Aparecer" */
+  @keyframes revealLemon {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.92);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
 
  /* Contenedor redondo */
   .music-player {
