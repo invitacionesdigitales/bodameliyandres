@@ -60,7 +60,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #111b10; /* Un verde oscuro elegante para hacer resaltar el amarillo */
+    background: #fffffe; /* Un verde oscuro elegante para hacer resaltar el amarillo */
     display: flex;
     flex-direction: column;
     justify-content: center;
