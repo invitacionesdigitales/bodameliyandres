@@ -545,8 +545,14 @@ font-family: 'Alex Brush', cursive;
 }
 .boton3{
   text-align: center;
-  margin-top: -18%;
+  margin-top: 8%;
 }
+
+.boton5{
+  text-align: center;
+  margin-top: -15%;
+}
+
 .primary2 {
 
   min-width: 130px;
@@ -744,7 +750,7 @@ font-family: 'Alex Brush', cursive;
 .cbu{
   width: 110%;
   margin-left: -3%;
-  
+  margin-top: 10%;
 }
 .fraseregalo{
  width: 46%;
