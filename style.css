@@ -1164,7 +1164,7 @@ margin-top: -49%;
   /* Fijar arriba */
   position: fixed;
   top: 20px;   /* distancia desde arriba */
-  right: 50px; /* lo mantiene a la derecha */
+  right: 90px; /* lo mantiene a la derecha */
   z-index: 9999; /* asegura que quede por encima de todo */
   
   }
